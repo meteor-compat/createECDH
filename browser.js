@@ -1,4 +1,4 @@
-var elliptic = require('elliptic')
+var elliptic = require('./elliptic/lib/elliptic');
 var BN = require('bn.js')
 
 module.exports = function createECDH (curve) {
